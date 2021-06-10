@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SEO-->
+    <meta name="descripcion" content="Entrenamiento personal basado en tus objetivos. Seguimiento individualizado para lograr cumplir lo que te propongas. Planes a tu medida.">
+    <meta name="palabras clave" content=" contacto, entrenamiento, personalizado, entrenador, personal, fisico, deporte, acrobacia, Ivan Martres, ">
+    
+    <!-- OPEN GRAPG-->
+    <meta property= "og:title" content= "Ivan Martres - Entrenador personal -">
+    <meta property= "og:type" content= "image/jpeg">
+    <meta property= "og:description" content= "Entrenamiento personal basado en tus objetivos. Seguimiento individualizado para lograr cumplir lo que te propongas. Planes a tu medida.">
+    <meta property= "og:author " content= "Manuel Orejon ">
+    <meta property= "og:url " content= " ">
+    <meta property= "og:locale " content= "en_ES">
+    <meta property= "og:image" content=" ">
+    <meta property= "og:image:secure_url" content="">
+    <meta property= "og:image:type" content="image/jpeg">
+    <meta property= "og:image:width" content="400">
+    <meta property= "og:image:height" content="300">
+    <meta property= "og:image:alt" content="ivan haciendo un flic flac">
+
+    <!-- GOOGLE FONTS LINKEADO-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!-- entre a CDNJS.com busque fontawesome y copie el link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Estilo CSS linkeado (SIEMPRE ULTIMO)-->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <!-- Titulo Web-->
+    <title>Ivan Martres - Entrenador personal -</title>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navegacion">
+            <ul class="menu">
+                <li> <a href="../index.html">Inicio</a></li>
+                <li> <a href="sobre-mi.html">Sobre Mi</a></li>
+                <li> <a href="servicio.html">Servicio</a></li>
+                <li> <a href="contacto.html">Contacto</a></li>
+                <li> <a href="#"> Material extra</a>
+                    <ul class="submenu">
+                        <li> <a href="submenu-fotos.html"> Fotos</a></li>
+                        <li> <a href="submenu-videos.html"> Videos</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="altoContacto">
+        <h1 class="tituloContacto text-xl-center "> EL CAMBIO EMPIEZA HOY</h1>
+        <form method="GET" action="#" >
+            <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
+                style="background-image: url(assets/img/overlay-bg.jpg)">
+                <div class="overlay-mf"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="contact-mf">
+                                <div id="contact" class="box-shadow-full">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="title-box-2">
+                                                <h5 class="title-left">
+                                                    Escribime
+                                                </h5>
+                                            </div>
+                                            <div>
+                                                <form action="forms/contact.php" method="post" role="form"
+                                                    class="php-email-form formulario">
+
+                                                    <!-- BEM -->
+                                                    <div class="row formulario__fila1">
+                                                        <div class="col-md-12 mb-3">
+                                                            <div class="form-group">
+                                                                <input type="text" name="name" class="form-control"
+                                                                    id="name" placeholder="Tu nombre"
+                                                                    data-rule="minlen:4"
+                                                                    data-msg="Please enter at least 4 chars" />
+                                                                <div class="validate"></div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12 mb-3">
+                                                            <div class="form-group">
+                                                                <input type="email" class="form-control" name="email"
+                                                                    id="email" placeholder="Tu Email" data-rule="email"
+                                                                    data-msg="Please enter a valid email" />
+                                                                <div class="validate"></div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12 mb-3">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="subject"
+                                                                    id="subject" placeholder="Telefono"
+                                                                    data-rule="minlen:4"
+                                                                    data-msg="Please enter at least 8 chars of subject" />
+                                                                <div class="validate"></div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12 formulario__fila1--fondoRojo">
+                                                            <div class="form-group">
+                                                                <textarea class="form-control" name="message" rows="5"
+                                                                    data-rule="required"
+                                                                    data-msg="Please write something for us"
+                                                                    placeholder="Mensaje"></textarea>
+                                                                <div class="validate"></div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12 text-center mb-3">
+                                                            <div class="loading"></div>
+                                                            <div class="error-message"></div>
+                                                            <div class="sent-message">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12 text-center pb-3">
+                                                            <button type="submit"
+                                                                class="button button-a button-big button-rouded">Enviar
+                                                                Mensaje</button>
+                                                        </div>
+
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="title-box-2 pt-4 pt-md-0 contenedorTituloContacto">
+
+                                            </div>
+                                            <div class="moreInfo">
+                                                <p class="lead mt-5">
+                                                    Puedes contactarme por cualquier medio que elijas, si escribes por
+                                                    medio del formulario que ves aquí deberás tener en cuenta que mi
+                                                    respuesta puede llegar (en ocasiones) como "correo no deseado" por
+                                                    lo que sería bueno que revises dicha casilla también, ya que suelo
+                                                    responder de forma casi inmediata. También puedes contactarme por
+                                                    mis redes sociales directamente para tener un contacto más fluido,
+                                                    si lo deseas.
+
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="first">
+                            <h4>Sobre mi</h4>
+                            <p> Personal Trainer</p>
+                            <p> Profesor de acrobacia</p>
+                            <p> Estudiante de bioquimica</p>
+                            <p> Acrobata</p>
+                            <p> Modelo</p>
+                            <p> Self-motivated</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-12">
+                        <div class="second">
+                            <h4> Navegacion</h4>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="sobre-mi.html">Sobre mi</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                                <li><a href="submenu-fotos.html">Galeria</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-12">
+                        <div class="third">
+                            <h4> Contacto</h4>
+                            <ul>
+                                <li>Ivan Martres </li>
+                                <li></li>
+
+
+                                <li><i class="far fa-envelope"></i> ivanmartres@gmail.com</li>
+                                <li><i class="far fa-envelope"></i> ivanmartres@hotmail.com.ar</li>
+
+
+                                <li><i class="fas fa-map-marker-alt"></i> Argentina, CABA </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 align-items-center">
+                        <div class="line"></div>
+                        <div class="second2">
+                            <a href="index.html" target="_blank"> <i class="fab fa-codepen fa-2x margin"></i></a>
+                            <a href="https://www.facebook.com/ivan.martres" target="_blank"> <i
+                                    class="fab fa-facebook fa-2x margin"></i></a>
+                            <a href="https://www.instagram.com/ivan_martres/?hl=es-la" target="_blank"> <i
+                                    class="fab fa-instagram fa-2x margin"></i></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

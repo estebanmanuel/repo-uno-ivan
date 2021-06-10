@@ -1,0 +1,53 @@
+/* INDEX */
+
+#main {
+    background-image: url('../fotos ivan/IVO1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 93vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+
+        &:hover {
+            color: #006d7f;
+            letter-spacing: 10px;
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+
+        &:hover {
+            color: #006d7f;
+            letter-spacing: 10px;
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+
+        &:hover {
+            font-weight: bold;
+
+            color: #006d7f;
+            font-style: italic;
+        }
+
+    }
+}
+
+/* ----------FIN INDEX---------- */
